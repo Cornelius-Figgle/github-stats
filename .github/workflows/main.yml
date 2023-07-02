@@ -41,7 +41,7 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         EXCLUDED: Cornelius-Figgle/Cornelius-Figgle,Cornelius-Figgle/github-stats,Cornelius-Figgle/other,Cornelius-Figgle/MicroSupport-Website
-        EXCLUDED_LANGS: tex,pawn,sourcepawn,roff
+        EXCLUDED_LANGS: html,css,javascript,tex,pawn,sourcepawn,roff
         EXCLUDE_FORKED_REPOS: true
 
     # Commit all changed files to the repository

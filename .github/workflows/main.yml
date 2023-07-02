@@ -40,7 +40,7 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        EXCLUDED: Cornelius-Figgle/Cornelius-Figgle,Cornelius-Figgle/github-stats,Cornelius-Figgle/other
+        EXCLUDED: Cornelius-Figgle/Cornelius-Figgle,Cornelius-Figgle/github-stats,Cornelius-Figgle/other,Cornelius-Figgle/MicroSuport-Website
         EXCLUDED_LANGS: html,tex,css,pawn,sourcepawn,roff
         EXCLUDE_FORKED_REPOS: false
 
